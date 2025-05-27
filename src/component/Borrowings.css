@@ -1,0 +1,81 @@
+.borrowings-wrapper {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.borrowings-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.borrowings-list li {
+  background-color: #f9f9f9;
+  margin-bottom: 12px;
+  padding: 15px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.status {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  text-transform: capitalize;
+  font-weight: bold;
+  width: fit-content;
+}
+
+.status.borrowed {
+  background-color: orange;
+  color: white;
+}
+
+.status.returned {
+  background-color: green;
+  color: white;
+}
+
+.status.overdue {
+  background-color: red;
+  color: white;
+}
+
+.return-button {
+  padding: 5px 10px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.return-button:hover {
+  background-color: #0056b3;
+}
+
+.fine {
+  color: red;
+  font-weight: bold;
+}
+
+.notifications-box {
+  margin-top: 30px;
+  background-color: #e6f5ff;
+  border: 1px solid #b2dffc;
+  padding: 15px;
+  border-radius: 6px;
+  color: #004080;
+}
