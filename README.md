@@ -1,3 +1,7 @@
+The Library Automation System is a web application developed as a term project for the Software Project Management course at Yaşar University. It automates library operations such as user registration, book borrowing and returning, due date tracking, and fine calculation. Built with React.js and Firebase, the system provides a responsive frontend and a real-time Firestore database for managing books and users. Users can view books, borrow or return them, and track their activity via a personal dashboard, while librarians can add, edit, or delete books through a dedicated admin page.
+
+Fines of $1 per overdue day are calculated automatically and updated in the database. Firebase handles authentication and role-based access, ensuring only librarians can manage book data. The system supports real-time updates, notifications for due or overdue books, and persists user sessions across reloads. Development followed a clear project plan with defined milestones, detailed requirements, and testing to ensure functionality. The project can be run locally with npm install and npm start, and Firebase must be configured separately using the provided firebase-config.js file.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
